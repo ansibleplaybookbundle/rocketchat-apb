@@ -16,7 +16,7 @@ An apb for deploying [RocketChat](https://rocket.chat).
 * mongodb_version, Required, default '3.2', MongoDB version. 3.2, 3.4, and 3.5 are supported.
 * mongodb_admin_pass, Required, default 'changeme', MongoDB administrator password.
 ## Running the application
-`docker run -e "OPENSHIFT_TARGET=<openshift_target>" -e "OPENSHIFT_USER=<user>" -e "OPENSHIFT_PASS=<password>" ansibleplaybookbundle/rocketchat-apb provision`
+`docker run -e "OPENSHIFT_TARGET=<openshift_target>" -e "OPENSHIFT_TOKEN=<token>" ansibleplaybookbundle/rocketchat-apb provision`
 
 ## Tearing down the application
-`docker run -e "OPENSHIFT_TARGET=<openshift_target>" -e "OPENSHIFT_USER=<user>" -e "OPENSHIFT_PASS=<password>" ansibleplaybookbundle/rocketchat-apb deprovision`
+`docker run -e "OPENSHIFT_TARGET=<openshift_target>" -e "OPENSHIFT_TOKEN=<token>" ansibleplaybookbundle/rocketchat-apb deprovision`

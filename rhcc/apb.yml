@@ -9,6 +9,7 @@ metadata:
   dependencies: ['registry.connect.redhat.com/rocketchat/rocketchat:latest', 'registry.access.redhat.com/rhscl/mongodb-32-rhel7']
   displayName: RocketChat RH (APB)
   longDescription: An APB that deploys RocketChat to OpenShift backed by MongoDB
+  providerDisplayName: "Red Hat, Inc."
 plans:
   - name: default
     description: This plan deploys a single RocketChat application backed by MongoDB

@@ -9,6 +9,7 @@ metadata:
   dependencies: ['rocket.chat:latest', 'mongo:3.2']
   displayName: RocketChat (APB)
   longDescription: An APB that deploys RocketChat to OpenShift backed by MongoDB
+  providerDisplayName: "Red Hat, Inc."
 plans:
   - name: default
     description: This plan deploys a single RocketChat application backed by MongoDB

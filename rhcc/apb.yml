@@ -1,3 +1,4 @@
+version: 1.0
 name: rocketchat-rh-apb
 image: openshift3/rocketchat-rh-apb
 description: This APB deploys RocketChat backed by MongoDB

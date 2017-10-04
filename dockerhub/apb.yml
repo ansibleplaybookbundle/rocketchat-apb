@@ -1,3 +1,4 @@
+version: 1.0
 name: rocketchat-apb
 image: ansibleplaybookbundle/rocketchat-apb
 description: This APB deploys RocketChat backed by MongoDB
